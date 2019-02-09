@@ -24,6 +24,6 @@ else:
 
 sk = Skype("username", "passwd") #Place your username/email and password here.
 
-ch = sk.chats.chat('rahiv') #Place recipient username or groups-url to send text messages. 
+ch = sk.chats.chat('rahiv') #Place recipients username or groups url to send text messages. 
 
 ch.sendMsg(msg_body)
